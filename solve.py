@@ -5,8 +5,6 @@ board = []
 for i in range(1, 10):
     board.append(str(i))
 
-space = "  "
-
 def print_board(board):
     print("-" * 25)
     for i in range(1, 10):
