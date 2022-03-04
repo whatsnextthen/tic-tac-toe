@@ -85,5 +85,3 @@ for K in range(9):
         break
 if not win:
     print("Ничья!")
-
-
