@@ -26,7 +26,7 @@ def check_if_win():
     for i in range(0, 9, 3):
         if board[i] == board[i + 1] and board[i] == board[i + 2] and board[i + 1] == board[i + 2]:
             win = 1
-    for i in range(1, 4):
+    for i in range(0, 4):
         if board[i] == board[i + 3] and board[i + 3] == board[i + 6] and board[i] == board[i + 6]:
             win = 1
     if board[0] == board[4] and board[4] == board[8] and board[0] == board[8]:
